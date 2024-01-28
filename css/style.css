@@ -55,10 +55,15 @@ i{
     bottom: 0;
     background-color: white;
     transition: 0.5s all;
+    cursor: pointer !important;
+    
 }
 .meal:hover .meal-layer{
     top: 0;
 }
+  img{
+    cursor: pointer !important;
+  }
 input.search::placeholder{
   color: white;
 }
