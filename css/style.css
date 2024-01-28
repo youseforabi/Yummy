@@ -1,7 +1,6 @@
 :root{
     scroll-behavior: auto !important;
 }
-
 .Home{
     background-color: black; 
     position: relative;
@@ -21,41 +20,22 @@
 
 }
 .menue{
-    /* width: 0; */
     overflow-x: hidden;
     display: flex;
-
     flex-direction: column;
     justify-content: space-between;
-    /* display: none; */
-    
-    
 }
 .menue ul{
     list-style: none;
     margin: 20px 0;
-    /* overflow: hidden; */
 }
 ul li.ancor{
     margin: 20px 0;
     padding: 5px;
     color: white;
     top: 300px;
-    /* overflow: hidden; */
-    
-   
-    /* /* overflow: hidden; */
-   
-
 }
-/* ul li a{
-    text-decoration: none;
-    color: white;
-    
-    
-} */
 .close{
-    /* width: 25%; */
     height: 100vh;
     background-color: white;
 }
@@ -66,7 +46,6 @@ i{
     cursor: pointer;
 }
 .content{
-    /* width: 75%; */
     min-height: 100vh;
 }
 .meal-layer{
@@ -75,11 +54,10 @@ i{
     top: 100%;
     bottom: 0;
     background-color: white;
-    transition: 2s all;
+    transition: 0.5s all;
 }
 .meal:hover .meal-layer{
     top: 0;
-    
 }
 input.search::placeholder{
   color: white;
@@ -87,7 +65,6 @@ input.search::placeholder{
   /* /////////////loading//////////////////////////////////////// */
   body{
     overflow: hidden;
-    
   }
   .loading{
     width: 100%;
