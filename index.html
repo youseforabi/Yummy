@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="loading">
+        <span class="loader"></span>
+    </div>
+    <!-- ////////////////////////////////////// -->
+    <section class="Home" id="home">
+       
+            <div class="nav " >
+               
+               <div  class="menue ">
+              <div> 
+                 <ul style="overflow: hidden;">
+                <li onclick="searchdata();closeNav()" class="ancor position-relative"> Search</li>
+                <li onclick="getcategry(); closeNav()" class="ancor position-relative">Categories</li>
+                <li onclick="getarea(); closeNav()" class="ancor position-relative">Area</li>
+                <li onclick="getingradients();closeNav()" class="ancor position-relative">Ingradients</li>
+
+                <li onclick="contactus();closeNav()" class="ancor position-relative">Contact us</li>
+                </ul>
+             </div>
+                <div class="nav-footer text-white m-3">
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="footer ">
+                        <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                    </div>
+                </div>
+               </div>
+               <div class="nav-header d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+                <img class="logo" src="logo.png" alt="" srcset="" width="50px">
+                <i class="fa-solid open-close-icon fa-2x fa-align-justify"></i>
+                <div>
+                    <i class="fa-solid fa-globe d-block"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+                
+            </div>
+            <div class="container w-75" id="searchContainer"></div>
+            <div class="content "  >
+                <div class="container ">
+                    <div class="row g-4" id="data">
+
+                    </div>
+
+                </div>
+                
+
+
+
+
+            </div>
+
+     
+
+    </section>
+ 
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

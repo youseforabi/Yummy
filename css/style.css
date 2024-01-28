@@ -1,0 +1,141 @@
+:root{
+    scroll-behavior: auto !important;
+}
+
+.Home{
+    background-color: black; 
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.nav{
+    height: 100vh;
+    /* width: 25%; */
+    background-color: black;
+    display: flex;
+    position: fixed;
+    z-index: 9999999;
+    left: -250px;
+    top: 0;
+
+}
+.menue{
+    /* width: 0; */
+    overflow-x: hidden;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    /* display: none; */
+    
+    
+}
+.menue ul{
+    list-style: none;
+    margin: 20px 0;
+    /* overflow: hidden; */
+}
+ul li.ancor{
+    margin: 20px 0;
+    padding: 5px;
+    color: white;
+    top: 300px;
+    /* overflow: hidden; */
+    
+   
+    /* /* overflow: hidden; */
+   
+
+}
+/* ul li a{
+    text-decoration: none;
+    color: white;
+    
+    
+} */
+.close{
+    /* width: 25%; */
+    height: 100vh;
+    background-color: white;
+}
+ul li{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+.content{
+    /* width: 75%; */
+    min-height: 100vh;
+}
+.meal-layer{
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: 0;
+    background-color: white;
+    transition: 2s all;
+}
+.meal:hover .meal-layer{
+    top: 0;
+    
+}
+input.search::placeholder{
+  color: white;
+}
+  /* /////////////loading//////////////////////////////////////// */
+  body{
+    overflow: hidden;
+    
+  }
+  .loading{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 99999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #FF3D00 transparent;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+    
+
+
+
+
